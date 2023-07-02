@@ -1,0 +1,24 @@
+{
+  "name": "create-minimal-app",
+  "version": "1.0.8",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "create-minimal-app": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "templates",
+    "server"
+  ],
+  "scripts": {
+    "test": "create-minimal-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.7"
+  }
+}
